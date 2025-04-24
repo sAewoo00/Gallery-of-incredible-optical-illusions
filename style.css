@@ -1,0 +1,99 @@
+body {
+    background-color: #000;
+    color: #5eff00;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: linear-gradient(90deg, #219b11, #013300);
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  header h1, h2 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 3rem;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .gallery img {
+    width: 100%;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00ff00;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: zoom-in;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #920000;
+  }  
+  
+  form {
+    background-color: #111;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  form label, form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  form input, form textarea {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #1eff00;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem 1rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(90deg,  #219b11, #013300);
+  }
+  
+  footer p{
+    color: rgb(60, 255, 0);
+  }
